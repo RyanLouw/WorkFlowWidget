@@ -14,6 +14,7 @@ public sealed class LoginViewModel : INotifyPropertyChanged
     public string AccountDetails => user is null ? "Your account will be verified with Microsoft." : $"{user.DisplayName}\n{user.Email}";
     public string ActionLabel => user is null ? "Sign in with Microsoft" : "Sign out";
     public bool CanAct => !busy;
+    public SignedInUser? User => user;
     public string? Error => error;
     public event PropertyChangedEventHandler? PropertyChanged;
 

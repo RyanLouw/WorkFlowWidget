@@ -5,7 +5,8 @@
     <PackageReference Include="xunit" Version="2.9.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2"><PrivateAssets>all</PrivateAssets></PackageReference>
     <ProjectReference Include="../../src/WorkFlowWidget.Core/WorkFlowWidget.Core.csproj" />
+    <ProjectReference Include="../../src/WorkFlowWidget.Infrastructure/WorkFlowWidget.Infrastructure.csproj" />
     <Compile Include="../../src/WorkFlowWidget.Desktop/LoginViewModel.cs" Link="LoginViewModel.cs" />
-    <Compile Include="../../src/WorkFlowWidget.Infrastructure/GraphAccountVerifier.cs" Link="GraphAccountVerifier.cs" />
+    <Compile Include="../../src/WorkFlowWidget.Desktop/DashboardViewModel.cs" Link="DashboardViewModel.cs" />
   </ItemGroup>
 </Project>
