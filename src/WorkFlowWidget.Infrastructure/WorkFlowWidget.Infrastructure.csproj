@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0-windows</TargetFramework><EnableWindowsTargeting>true</EnableWindowsTargeting></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../WorkFlowWidget.Core/WorkFlowWidget.Core.csproj" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.90.1" />
+    <PackageReference Include="Microsoft.Identity.Client.Broker" Version="4.90.1" />
+  </ItemGroup>
+</Project>

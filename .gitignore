@@ -1,4 +1,12 @@
 # Prerequisites
+# .NET build outputs and local IDE files
+**/bin/
+**/obj/
+.vs/
+artifacts/
+*.user
+*.suo
+
 *.d
 
 # Object files
